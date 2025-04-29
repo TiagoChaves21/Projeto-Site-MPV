@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+   --cor01: #C26426; 
+   --cor02: #D5DAE3; 
+   --cor03: #c1c5ce; 
+   --cor04: #034959;  
+   --cor05: #0B3B4B;  
+   --cor06: #013C4F;
+
+   --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+   --fonte-destaque:  "Montserrat", sans-serif;
+   
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(var(--cor04),var(--cor06) );
+    width: 100%;
+    padding: 20px 0;
+}
+
+.interface{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo-mpv img{
+    width: 60px;
+    height: auto;
+}
+
+header .logo-mpv img:hover{
+   cursor: pointer; 
+}
+
+header .menu-desktop nav ul{
+    list-style-type: none;
+}
+
+header .menu-desktop nav ul li{
+    display: inline-block;
+}
+
+header .menu-desktop nav ul li a{ 
+    color: var(--cor02);
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+    transition-duration: .2s;
+    min-width: 280px;
+    max-width: 1250px;
+    font-family: var(--fonte-destaque); 
+    font-weight: normal;
+}
+
+header .menu-desktop nav ul li a:hover{
+    background-color: #a85620;
+    transform: scale(1.05);
+}
+
+header .redes-sociais img {
+    width: 35px;
+    height: 30px;
+}
+
+body{
+    background-color: var(--cor02);
+    font-family: var(--font-padrao);
+    text-align: justify;
+}
+
+main{
+    background-color: var(--cor02);
+    min-width: 280px;
+    max-width: 1250px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+main h1{
+    font-family: var(--fonte-destaque);
+}
+
+
+aside > h2 {
+    font-family: var(--fonte-destaque);
+}
+
+aside > img {
+    width: 300px;
+    height: auto;
+    display: inline;
+}
+  
+
+footer {
+    background-color: var(--cor06);
+    color: var(--cor02);
+    text-align: center;
+    font-family: var(--font-padrao);
+}
