@@ -53,6 +53,10 @@ header .menu-desktop nav ul{
 
 header .menu-desktop nav ul li{
     display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 header .menu-desktop nav ul li a{ 
@@ -99,18 +103,54 @@ main h1{
     font-family: var(--fonte-destaque);
 }
 
+main .bem-vindo{
+    padding-bottom: 30px;
+}
 
-aside > h2 {
+main .bem-vindo h1{
+    padding-bottom: 10px;
+}
+
+main .eventos{
+    padding-bottom: 30px;
+}
+
+main .eventos h1{
+    padding-bottom: 10px;
+}
+
+main .eventos div{
+    display: flex;
+    gap: 15px;
+}
+
+main .eventos div img{
+    width: 350px;
+    height: auto;
+    display: inline;
+    padding-bottom: 20px;
+}
+
+main .linha1 h3{
+    padding-right: 250px;
+    font-family: var(--font-padrao);
+}
+
+main .programação{
+    padding-bottom: 30px;
+}
+
+main .programação h2{
+    padding-bottom: 10px;
     font-family: var(--fonte-destaque);
 }
 
-aside > img {
+main .programação > img {
     width: 300px;
     height: auto;
     display: inline;
 }
   
-
 footer {
     background-color: var(--cor06);
     color: var(--cor02);
