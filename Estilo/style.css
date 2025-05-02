@@ -113,28 +113,28 @@ main .bem-vindo h1{
 
 main .eventos{
     padding-bottom: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-main .eventos h1{
+main .titulo-eventos h1{
     padding-bottom: 10px;
 }
 
-main .eventos div{
-    display: flex;
-    gap: 15px;
+main .img-principal img{
+    height: 400px;
+    width: auto;
 }
 
-main .eventos div img{
+main .img-secundaria img{
     width: 350px;
     height: auto;
     display: inline;
     padding-bottom: 20px;
 }
 
-main .linha1 h3{
-    padding-right: 250px;
-    font-family: var(--font-padrao);
-}
 
 main .programação{
     padding-bottom: 30px;
