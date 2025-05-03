@@ -93,8 +93,7 @@ body{
 main{
     background-color: var(--cor02);
     min-width: 280px;
-    max-width: 1250px;
-    padding: 20px;
+    padding-top: 20px;
     margin: auto;
     margin-bottom: 10px;
 }
@@ -103,53 +102,84 @@ main h1{
     font-family: var(--fonte-destaque);
 }
 
-main .bem-vindo{
-    padding-bottom: 30px;
+section.eventos{
+    padding: 20px 0px 40px 0px
 }
 
-main .bem-vindo h1{
-    padding-bottom: 10px;
-}
-
-main .eventos{
-    padding-bottom: 30px;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-main .titulo-eventos h1{
-    padding-bottom: 10px;
-}
-
-main .img-principal img{
-    height: 400px;
-    width: auto;
-}
-
-main .img-secundaria img{
-    width: 350px;
-    height: auto;
-    display: inline;
-    padding-bottom: 20px;
-}
-
-
-main .programação{
-    padding-bottom: 30px;
-}
-
-main .programação h2{
-    padding-bottom: 10px;
+.eventos h2{
     font-family: var(--fonte-destaque);
+    font-size: 2.0em;
+    padding-bottom: 30px;
 }
 
-main .programação > img {
-    width: 300px;
-    height: auto;
-    display: inline;
+.eventos .itens-eventos{
+    max-width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 20px;
+    margin: auto;
 }
+
+.eventos .itens-eventos .img-itens img{
+    max-width: 450px;
+    height: auto;
+}
+
+.eventos .itens-eventos .txt-itens h3{
+    font-size: 2.1em;
+    font-weight: 250;
+    margin-bottom: 10px;
+}
+
+.eventos .itens-eventos .txt-itens p{
+    text-align: justify;
+    font-family: var(--font-padrao);
+    font-size: large;
+}
+
+section.programação{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: var(--cor03);
+    width: 100%;
+    max-width: 100%;
+}
+
+.programação h2{
+    font-family: var(--fonte-destaque);
+    font-size: 2.0em;
+    padding-bottom: 30px;
+}
+
+.programação .horarios{
+    max-width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.programação .horarios .img-horarios img{
+    max-width: 450px;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.programação .horarios .txt-horarios h3{
+    font-size: 2.1em;
+    font-weight: 250;
+    margin-bottom: 10px;
+}
+
+.programação .horarios .txt-horarios h3 span{
+    display: block;
+    font-weight: bold;
+}
+
   
 footer {
     background-color: var(--cor06);
