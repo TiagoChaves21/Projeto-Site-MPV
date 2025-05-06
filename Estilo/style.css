@@ -179,6 +179,38 @@ section.programação{
     font-weight: bold;
 }
 
+section .contribua{
+    padding: 20px 0px 40px 0px
+}
+
+.contribua h2{
+    font-family: var(--fonte-destaque);
+    font-size: 2.0em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contribua .contribuição .txt-ofertas h3{
+    text-align: center;
+    font-size: 2.0em;
+    font-weight: 250;
+    margin-bottom: 10px;
+}
+
+.contribua .contribuição .txt-ofertas p{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.contribua .contribuição .img-ofertas img{
+    width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
   
 footer {
     background-color: var(--cor06);
